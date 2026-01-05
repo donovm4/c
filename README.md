@@ -68,7 +68,12 @@ printf("Hello World\n");
 ```c
 // main.c:
 
-printf("I have %d siblings. \nI have 2 %s and 2 %s. \nTogether we have $%.2f.", 4, "sisters", "brothers", 237.56);
+printf("I have %d siblings.\n", 4);
+
+char string[] = "brothers";
+printf("I have 2 %s and 2 %s.\n", "sisters", string);
+
+printf("Together we have $ %.2f.\n", 237.56);
 
 // Output:
 
