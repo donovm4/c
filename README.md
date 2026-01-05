@@ -20,7 +20,7 @@ int number = 2026;
 
 > [!IMPORTANT]
 >
-> `char <name-of-variable>[] allows for string/array of characters
+> `char <name-of-variable>[]` allows for string/array of characters
 
 ```c
 char fruit[] = "apple";
